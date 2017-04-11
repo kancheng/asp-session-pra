@@ -1,0 +1,38 @@
+﻿@import url(https://github.com/kancheng/css-tool-haoye/blob/master/css/haoye-font.css);
+
+.btn-wdt30 {
+	width: 30%;
+}
+
+.btn-wdt10 {
+	width: 10%;
+}
+
+.btn-wdt40 {
+	width: 47%;
+}
+
+.btn-text {
+	width: 10%;
+	padding: 6px 12px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    font-size:14px; 
+}
+
+.bg-color {
+	background-color: #FDFDFD;
+    font-size:14px; 
+}
+
+.div-topic {
+    font-size:18px; 
+}
+
+th {
+    text-align:center;
+}

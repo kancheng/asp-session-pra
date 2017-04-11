@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>haoye</title>
+	<script type = "text/javascript" src = "js/main.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "css/main.css" />
+	<link rel = "stylesheet" href = "css/bootstrap.min.css" />
+	<link rel = "stylesheet" href = "css/bootstrap.css" />
+	<script src="js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body class = "bg-color" >
+	<div style = "text-align:center;">
+	<form id="form1" runat="server">
+		<div>
+		<asp:ContentPlaceHolder id="topic" runat="server">
+        
+		</asp:ContentPlaceHolder>
+		</div>
+		<br />
+		<div>
+		<asp:ContentPlaceHolder id="idmsRdbtnArea" runat="server">
+        
+		</asp:ContentPlaceHolder>
+		</div>
+		<br />
+		<div style = "position:relative; left : 33%; text-align:left;" class = "div-topic">
+		<asp:ContentPlaceHolder id="idmsInputPanelArea" runat="server">
+        
+		</asp:ContentPlaceHolder>
+		</div>
+		<br />
+		<div>
+		<asp:ContentPlaceHolder id="idmsOutputPanelArea" runat="server">
+        
+		</asp:ContentPlaceHolder>
+		</div>
+	</form>
+	</div>
+</body>
+</html>
